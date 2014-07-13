@@ -12,8 +12,9 @@
 		F133169A161175A200D078E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1331698161175A200D078E8 /* InfoPlist.strings */; };
 		F133169C161175A200D078E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F133169B161175A200D078E8 /* main.m */; };
 		F13316A0161175A200D078E8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F133169E161175A200D078E8 /* Credits.rtf */; };
-		F13316A2161175A200D078E8 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F13316A1161175A200D078E8 /* AppDelegate.applescript */; };
+		F13316A2161175A200D078E8 /* Work Setup.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F13316A1161175A200D078E8 /* Work Setup.applescript */; };
 		F13316A5161175A300D078E8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13316A3161175A300D078E8 /* MainMenu.xib */; };
+		F13316AC1611763500D078E8 /* Work Setup.icns in Resources */ = {isa = PBXBuildFile; fileRef = F13316AB1611763500D078E8 /* Work Setup.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		F133169B161175A200D078E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F133169D161175A200D078E8 /* Work Setup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Work Setup-Prefix.pch"; sourceTree = "<group>"; };
 		F133169F161175A200D078E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F13316A1161175A200D078E8 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		F13316A1161175A200D078E8 /* Work Setup.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = "Work Setup.applescript"; sourceTree = "<group>"; };
 		F13316A4161175A300D078E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F13316AB1611763500D078E8 /* Work Setup.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Work Setup.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		F133167E161175A200D078E8 = {
 			isa = PBXGroup;
 			children = (
+				F13316AB1611763500D078E8 /* Work Setup.icns */,
 				F1331695161175A200D078E8 /* Work Setup */,
 				F133168C161175A200D078E8 /* Frameworks */,
 				F133168A161175A200D078E8 /* Products */,
@@ -85,7 +88,7 @@
 		F1331695161175A200D078E8 /* Work Setup */ = {
 			isa = PBXGroup;
 			children = (
-				F13316A1161175A200D078E8 /* AppDelegate.applescript */,
+				F13316A1161175A200D078E8 /* Work Setup.applescript */,
 				F13316A3161175A300D078E8 /* MainMenu.xib */,
 				F1331696161175A200D078E8 /* Supporting Files */,
 			);
@@ -158,6 +161,7 @@
 				F133169A161175A200D078E8 /* InfoPlist.strings in Resources */,
 				F13316A0161175A200D078E8 /* Credits.rtf in Resources */,
 				F13316A5161175A300D078E8 /* MainMenu.xib in Resources */,
+				F13316AC1611763500D078E8 /* Work Setup.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F133169C161175A200D078E8 /* main.m in Sources */,
-				F13316A2161175A200D078E8 /* AppDelegate.applescript in Sources */,
+				F13316A2161175A200D078E8 /* Work Setup.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
